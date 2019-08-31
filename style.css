@@ -1,12 +1,58 @@
+body{
+  background: #c8ccc9;
+}
+
 .hades{
-    padding-top: 40px;
+    padding-top: 60px;
     float: left;
 }
 
-img {
-    padding-right: 30px;
-    float: right;
+ .bolded {
+     font-size: 30px;
+     font-family: cursive;
+ }
+ 
+ .subbolded{
+     font-size: 25px;    
+     font-family: 'Courier New', Courier, monospace; 
+ }
+ 
+ #imageProp{
+     height : 250px;
+     width: 250px;
+     padding:10px;
+     float: right;
+     border-color: black;
+     border-width: 5px;
+     border-style: solid;
+ }
+ h3 {    
+     color:red ;
+     margin-top: 50px;
+     font-family: cursive;
+ }
+ p{
+     display: inline;
+ }
+ 
+ li{
+     list-style: none
+ }
+ 
+ hr{
+     
+     border: 5px solid green;
+     border-radius: 5px;
+    
 }
+ section{
+      text-align: center;
+      margin-bottom: 50px;
+ }
+ 
+ #blinky{
+     
+ }
 
 .bigName{
 clear: both;    
