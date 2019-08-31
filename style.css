@@ -1,0 +1,19 @@
+.hades{
+    padding-top: 40px;
+    float: left;
+}
+
+img {
+    padding-right: 30px;
+    float: right;
+}
+
+.bigName{
+clear: both;    
+}
+
+div > h2{
+    text-align: center;
+}
+
+
