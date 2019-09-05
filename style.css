@@ -22,8 +22,16 @@
      border-width: 5px;
      border-style: solid;
  }
+ body{
+     border-color: grey;
+     border-width: 5px;
+     border-style: solid;
+     margin: 0px;
+     padding: 20px;
+     
+ }
  h3 {    
-     color:red ;
+     color:brown ;
      margin-top: 50px;
      font-family: cursive;
  }
@@ -37,7 +45,7 @@
  
  hr{
      
-     border: 5px solid green;
+     border: 5px solid grey;
      border-radius: 5px;
     
 }
@@ -53,6 +61,55 @@
 .bigName{
 clear: both;    
 }
+#toppest{
+     color:brown;
+     font-family: cursive;
+     font-size: 40px;
+         
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    
+    
+}
+.contact{
+    padding: 10px;
+    background: brown;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+     font-family: cursive;
+    border: 4px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24), -1px -1px 5px rgba(0, 0, 0, 0.24);
+}
+
+.contact:hover{
+        background: rgb(68, 20, 20);
+
+}
+#contact-form {
+	    text-align: center;
+        border-width: 10px;
+        margin: 50px;
+}
+
+.form-control {
+    margin-bottom: 16px;
+    width: 500px;
+    height: 30px;
+}
+.form-control-big {
+    margin-bottom: 16px;
+    width: 500px;
+    height: 100px;
+}
+form{
+    
+}
+
 
 div > h2{
     text-align: center;
